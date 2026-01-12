@@ -12,17 +12,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ARtistic"
         tools:targetApi="31">
+
         <activity
-            android:name=".ARtisticApplication"
+            android:name=".ui.splash.SplashActivity"
             android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.ARtistic">
+            android:theme="@style/Theme.ARtistic.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".ui.auth.LoginActivity"
+            android:theme="@style/Theme.ARtistic.NoActionBar" />
+        
+        <activity
+            android:name=".ui.auth.RegisterActivity"
+            android:theme="@style/Theme.ARtistic.NoActionBar" />
+        
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:theme="@style/Theme.ARtistic.NoActionBar" />
     </application>
 
 </manifest>

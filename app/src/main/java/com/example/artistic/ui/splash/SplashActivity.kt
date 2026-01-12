@@ -6,11 +6,11 @@ import android.os.Handler
 import android.os.Looper
 import android.view.animation.AnimationUtils
 import androidx.appcompat.app.AppCompatActivity
-import com.yourname.artistic.R
-import com.yourname.artistic.databinding.ActivitySplashBinding
-import com.yourname.artistic.ui.auth.LoginActivity
-import com.yourname.artistic.ui.main.MainActivity
-import com.yourname.artistic.utils.PreferenceManager
+import com.example.artistic.R
+import com.example.artistic.databinding.ActivitySplashBinding
+import com.example.artistic.ui.auth.LoginActivity
+import com.example.artistic.ui.main.MainActivity
+import com.example.artistic.utils.PreferenceManager
 
 class SplashActivity : AppCompatActivity() {
     
