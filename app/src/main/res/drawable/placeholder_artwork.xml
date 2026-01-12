@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="280dp"
+    android:height="280dp"
+    android:viewportWidth="280"
+    android:viewportHeight="280">
+    
+    <!-- Background Gradient -->
+    <path
+        android:fillColor="#F0EFFF"
+        android:pathData="M0,0 L280,0 L280,280 L0,280 Z" />
+    
+    <!-- Image Icon -->
+    <path
+        android:fillColor="#6C63FF"
+        android:pathData="M100,90 L180,90 L180,110 L160,110 L140,130 L160,150 L180,150 L180,190 L100,190 Z M110,100 L110,180 L170,180 L170,160 L150,140 L170,120 L170,100 Z" />
+    
+    <!-- Mountain Shape -->
+    <path
+        android:fillColor="#9D97FF"
+        android:pathData="M110,140 L130,120 L150,140 L170,120 L170,180 L110,180 Z" />
+    
+    <!-- Sun/Circle -->
+    <path
+        android:fillColor="#FFD93D"
+        android:pathData="M150,115 A10,10 0 1,1 150,105 A10,10 0 1,1 150,115 Z" />
+</vector>

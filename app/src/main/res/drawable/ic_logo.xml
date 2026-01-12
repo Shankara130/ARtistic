@@ -1,0 +1,23 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Background Circle -->
+    <path
+        android:fillColor="#6C63FF"
+        android:pathData="M60,10 A50,50 0 1,1 60,110 A50,50 0 1,1 60,10 Z" />
+
+    <!-- Brush Icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M45,35 L55,35 L70,75 L65,75 L62,65 L38,65 L35,75 L30,75 Z M40,60 L60,60 L50,42 Z" />
+
+    <!-- AR Circle -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M60,85 A10,10 0 1,1 60,95 A10,10 0 1,1 60,85 Z" />
+</vector>

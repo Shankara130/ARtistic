@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    
+    <!-- Empty Box Icon -->
+    <path
+        android:fillColor="#B2BEC3"
+        android:pathData="M80,30L50,10L20,30L20,70L50,90L80,70Z M25,35L50,20L75,35L75,65L50,80L25,65Z" />
+    
+    <!-- Cross Lines -->
+    <path
+        android:strokeColor="#B2BEC3"
+        android:strokeWidth="2"
+        android:pathData="M35,45 L65,55" />
+    <path
+        android:strokeColor="#B2BEC3"
+        android:strokeWidth="2"
+        android:pathData="M35,55 L65,45" />
+</vector>

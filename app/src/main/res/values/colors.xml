@@ -1,25 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Primary Colors -->
     <color name="primary">#6C63FF</color>
     <color name="primary_light">#9D97FF</color>
     <color name="primary_dark">#4B45CC</color>
     <color name="primary_surface">#F0EFFF</color>
+    
+    <!-- Secondary Colors -->
     <color name="secondary">#FF6584</color>
     <color name="secondary_light">#FF94AB</color>
     <color name="secondary_dark">#CC5169</color>
+    
+    <!-- Accent Colors -->
     <color name="accent_turquoise">#4ECDC4</color>
     <color name="accent_yellow">#FFD93D</color>
     <color name="accent_orange">#FF9A3D</color>
+    <color name="accent_green">#00B894</color>
+    
+    <!-- Neutral Colors -->
     <color name="background_primary">#FFFFFF</color>
     <color name="background_secondary">#F7F7F7</color>
+    <color name="surface">#FFFFFF</color>
     <color name="border">#E8E8E8</color>
     <color name="text_primary">#2D3436</color>
     <color name="text_secondary">#636E72</color>
     <color name="text_disabled">#B2BEC3</color>
+    
+    <!-- Status Colors -->
     <color name="success">#00B894</color>
     <color name="error">#D63031</color>
     <color name="warning">#FDCB6E</color>
     <color name="info">#74B9FF</color>
+    
+    <!-- System Colors -->
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    
+    <!-- Material Design Defaults (untuk kompatibilitas) -->
+    <color name="colorPrimary">@color/primary</color>
+    <color name="colorPrimaryDark">@color/primary_dark</color>
+    <color name="colorAccent">@color/secondary</color>
 </resources>
