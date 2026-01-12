@@ -11,8 +11,8 @@ data class User(
     val email: String,
     val password: String,
     val profilePict: String? = null,
-    val bio: String? = null
-    val totalArtworks: Int = 0
-    val totalLikes: Int = 0
+    val bio: String? = null,
+    val totalArtworks: Int = 0,
+    val totalLikes: Int = 0,
     val joinDate: Long = System.currentTimeMillis()
 )

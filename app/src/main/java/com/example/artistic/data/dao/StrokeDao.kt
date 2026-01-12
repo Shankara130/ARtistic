@@ -1,7 +1,7 @@
 package com.example.artistic.data.dao
 
 import androidx.room.*
-import com.yourname.artistic.data.entity.Stroke
+import com.example.artistic.data.entity.Stroke
 
 @Dao
 interface StrokeDao {

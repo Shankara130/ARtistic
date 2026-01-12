@@ -8,7 +8,7 @@ import androidx.fragment.app.Fragment
 import com.example.artistic.R
 
 class ExploreFragment : Fragment() {
-    override onCreateView(
+    override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?

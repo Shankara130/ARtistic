@@ -1,4 +1,4 @@
-package com.example.artistic.data.entity
+package com.example.artistic.data.dao
 
 import androidx.room.*
 import com.example.artistic.data.entity.Artwork
