@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
+        android:name=".ARtisticApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -26,14 +27,19 @@
         <activity
             android:name=".ui.auth.LoginActivity"
             android:theme="@style/Theme.ARtistic.NoActionBar" />
-        
+
         <activity
             android:name=".ui.auth.RegisterActivity"
             android:theme="@style/Theme.ARtistic.NoActionBar" />
-        
+
         <activity
             android:name=".ui.main.MainActivity"
             android:theme="@style/Theme.ARtistic.NoActionBar" />
+
+        <activity
+            android:name=".ui.drawing.DrawingActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ARtistic" />
     </application>
 
 </manifest>
