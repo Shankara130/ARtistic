@@ -1,0 +1,18 @@
+package com.example.artistic.ui.main.explore
+
+import android.os.Bundle
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import androidx.fragment.app.Fragment
+import com.example.artistic.R
+
+class ExploreFragment : Fragment() {
+    override onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        return inflater.inflate(R.layout.fragment_explore, container, false)
+    }
+}
