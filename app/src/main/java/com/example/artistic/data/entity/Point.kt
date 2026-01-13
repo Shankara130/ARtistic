@@ -14,6 +14,7 @@ import androidx.room.ForeignKey
             onDelete = ForeignKey.CASCADE
         )
     ]
+    indices = [Index(value = ["strokeId"])]
 )
 
 data class Point(
