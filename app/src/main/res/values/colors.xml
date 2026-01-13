@@ -5,6 +5,7 @@
     <color name="primary_light">#9D97FF</color>
     <color name="primary_dark">#4B45CC</color>
     <color name="primary_surface">#F0EFFF</color>
+    <color name="primary_variant">#4B45CC</color>
     
     <!-- Secondary Colors -->
     <color name="secondary">#FF6584</color>
@@ -36,6 +37,7 @@
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
     <color name="transparent">#00000000</color>
+    <color name="toolbar_background">#80000000</color>
     
     <!-- Material Design Defaults (untuk kompatibilitas) -->
     <color name="colorPrimary">@color/primary</color>

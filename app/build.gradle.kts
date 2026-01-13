@@ -91,4 +91,28 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    // ARCore dependencies
+    implementation("com.google.ar:core:1.41.0")
+    
+    // Camera X for AR (optional, jika belum ada)
+    val cameraxVersion = "1.3.1"
+    implementation("androidx.camera:camera-core:$cameraxVersion")
+    implementation("androidx.camera:camera-camera2:$cameraxVersion")
+    implementation("androidx.camera:camera-lifecycle:$cameraxVersion")
+    implementation("androidx.camera:camera-view:$cameraxVersion")
+    
+    // Coroutines for async operations (jika belum ada)
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
+    
+    // ViewModel & LiveData (jika belum ada)
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.7.0")
+    
+    // Fragment KTX (jika belum ada)
+    implementation("androidx.fragment:fragment-ktx:1.6.2")
+    
+    // Material Components (jika belum ada)
+    implementation("com.google.android.material:material:1.11.0")
 }

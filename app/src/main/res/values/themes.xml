@@ -35,5 +35,14 @@
         <item name="android:windowBackground">@drawable/gradient_primary</item>
         <item name="android:statusBarColor">@color/primary_dark</item>
     </style>
+
+    <!-- AR Drawing fullscreen theme -->
+    <style name="Theme.ARtistic.Fullscreen" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
     
 </resources>

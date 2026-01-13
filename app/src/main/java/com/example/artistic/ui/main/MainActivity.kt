@@ -7,12 +7,12 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
 import com.example.artistic.R
 import com.example.artistic.databinding.ActivityMainBinding
-import com.example.artistic.ui.drawing.DrawingActivity
+import com.example.artistic.ui.drawing.ARDrawingActivity
 
 class MainActivity : AppCompatActivity() {
-    
+
     private lateinit var binding: ActivityMainBinding
-    
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         setupNavigation()
         setupFAB()
     }
-    
+
     private fun setupNavigation() {
         val navHostFragment = supportFragmentManager
             .findFragmentById(R.id.navHostFragment) as NavHostFragment
@@ -29,10 +29,10 @@ class MainActivity : AppCompatActivity() {
         
         binding.bottomNav.setupWithNavController(navController)
     }
-    
+
     private fun setupFAB() {
         binding.fabCreate.setOnClickListener {
-            startActivity(Intent(this, DrawingActivity::class.java))
+            startActivity(Intent(this, ARDrawingActivity::class.java))
         }
     }
 }
