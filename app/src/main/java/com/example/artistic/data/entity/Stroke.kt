@@ -3,6 +3,7 @@ package com.example.artistic.data.entity
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import androidx.room.ForeignKey
+import androidx.room.Index
 
 @Entity(
     tableName = "strokes",
@@ -13,7 +14,7 @@ import androidx.room.ForeignKey
             childColumns = ["artworkId"],
             onDelete = ForeignKey.CASCADE
         )
-    ]
+    ],
     indices = [Index(value = ["artworkId"])]
 )
 
